@@ -41,7 +41,7 @@ flowchart TB
 
   subgraph v2 [Větev 2]
     t[T-kus 2x 40 mm]
-    wp[Větev A výr mělčina neškrcená]
+    wp[Větev A vír mělčina neškrcená]
     uv[Větev B 2x 55 W UV škrcená]
     bio[Invital Biofiltr 550]
   end
@@ -71,7 +71,7 @@ flowchart TB
 
 1. **Oase AquaMax Eco Premium 12000 12 V** (art. 50382) sání **těsně u hladiny**, přívod **50 mm**. Katalog 11 400 l/h, max. výtlak **3,2 m**, nečistoty do 11 mm, druhý vstup (satelit zkoušen, **nevyhovoval** — koupání v 1,5 m, zima, malý efekt). Trafo v dodávce.
 2. Výtlak rozdělen na **dvě 40 mm** s regulací:
-   - **A — výr / mělká zóna:** neškrcená, vratná voda pravotočivě roztáčí mělčinu a strhává kal. Tryska má jít **podél oválu**, ne kolmo do 30 cm police.
+   - **A — vír / mělká zóna:** neškrcená, vratná voda pravotočivě roztáčí mělčinu a strhává kal. Tryska má jít **podél oválu**, ne kolmo do 30 cm police.
    - **B — filtrace:** škrcená, **2× 55 W UV** (průtočné, v sérii před 550) → **INVITAL Biofiltr 550** (130 l, vstup 20–40 mm, výtok 40–72 mm, max. doporučený průtok 12 000 l/h). Výtok gravitací do jezírka.
 3. Neškrcená A bere většinu průtoku (menší odpor). UV a 550 proto vidí jen část 12000, dokud se B nepřivře.
 

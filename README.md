@@ -11,7 +11,7 @@ flowchart LR
   pond[Ovál 8x5 max 1.5m]
   p2[Aquamax 12000 12V 50mm]
   split[T-kus]
-  wp[Výr podél oválu]
+  wp[Vír podél oválu]
   uv[UV 2x55W]
   drum[Buben max 6000]
   bio[Invital 550]
@@ -22,8 +22,8 @@ flowchart LR
 
 ## Verdikt
 
-- Větev 2: **UV 2×55 W → netlakový buben (max. 6000 l/h) → Invital Biofiltr 550**. Whirlpool jen jako obchoz.
-- **Nekupovat** větší tlakový filtr na větev 2, satelit na dno, bazénový písek. Zeolit jen nouzově na NH₄ (pak ven); uhlí jen 7–14 dní bez Dyofixu, až po zeolitu. Průzračnost řeší UV + buben.
+- Větev 2: **UV 2×55 W → netlakový buben (max. 6000 l/h) → Invital Biofiltr 550**. Vír jen jako obchoz.
+- **Nekupovat** větší tlakový filtr na větev 2 (včetně SUNSUN CPF-10000 před UV), další 55 W UV, satelit na dno, bazénový písek. Zeolit jen nouzově na NH₄ (pak ven); uhlí jen 7–14 dní bez Dyofixu, až po zeolitu. Průzračnost řeší stávající UV + buben, ne silnější čerpadlo.
 - Hadice od Aquamax 12000: **50 mm v kuse** k T-kusu, ne Y z 2×40 mm.
 
 ## Větve (beze změny sortimentu)
@@ -31,6 +31,6 @@ flowchart LR
 | Větev | Tok | Úloha |
 | --- | --- | --- |
 | 1 | Skimmer CSP-8000 (koš) → Aquamax 6000 12V → Sicce Green Reset 100 → IBC 1000 l / Hel-X 300 l | Mechanika + hlavní bio |
-| 2 | Aquamax 12000 12V → T-kus: výr **nebo** UV → buben → Biofiltr 550 | Cirkulace + průzračnost |
+| 2 | Aquamax 12000 12V → T-kus: vír **nebo** UV → buben → Biofiltr 550 | Cirkulace + průzračnost |
 
 Tlakový zůstává jen Green Reset. Za ním žádné další čerpadlo.

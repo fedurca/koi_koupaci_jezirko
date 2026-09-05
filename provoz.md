@@ -13,7 +13,7 @@ Nejdřív vzhled vody, pak čísla. Média a ventily se ladí podle barvy, ne po
 | Vzhled | Co to je | Co zvedne průzračnost |
 | --- | --- | --- |
 | Zelená | Jednobuněčné řasy | Víc vody přes UV 2×55 W + buben za nimi; volitelně Dyofix |
-| Hnědá / prachová | Zvířený kal, detrit | Buben + 550; mírný výr **ne** do 30cm police; občas vysavač v 1,5 m |
+| Hnědá / prachová | Zvířený kal, detrit | Buben + 550; mírný vír **ne** do 30cm police; občas vysavač v 1,5 m |
 | Mléčná | Bakterie, rozpuštěná organika | Méně krmení, kyslík v hlubině, odvoz kalu z bubnu na zahradu |
 | Žlutá, ale čirá | Rozpuštěné organiky (DOC) | Výměna vody; uhlí jen 7–14 dní **bez** Dyofixu |
 
@@ -29,7 +29,7 @@ Měřit na **výtoku z Biofiltru 550** (větev 2) a zvlášť na **výtoku z IBC
 4. Strop bubnu je **6000 l/h**. Nad ním teče voda přepadem **neošetřená** zpět do jezírka.
 5. IBC: zapsat výchozí hodnotu (u 6000 12V a zdvihu +1,2 m často 1500–3000 l/h čistý Green Reset). Nesnažit se honit větev 1 na 6000 — čerpadlo na to nemá výtlak.
 
-Když buben pere nonstop, stáhnout větev B (víc na výr), nepřidávat průtok.
+Když buben pere nonstop, stáhnout větev B (víc na vír), nepřidávat průtok.
 
 ---
 
@@ -40,7 +40,7 @@ Pořadí je dané kvůli průzračnosti: UV shlukne řasy, síto je zachytí, 55
 ```
 Aquamax 12000 12V
   --50 mm--> T-kus
-               |-- větev A: výr podél oválu --> jezírko
+               |-- větev A: vír podél oválu --> jezírko
                |-- větev B: UV 2×55 W --> buben --> Invital 550 --> jezírko
                               buben přepad --> jezírko (mimo sání 12000)
                               buben prací odpad --> zahrada
@@ -76,13 +76,23 @@ Ostřik a elektronika bubnu nesmí zmrznout: bypass (UV → 550 nebo UV → jez�
 
 ### Křemenky UV
 
+**Křemenka** je křemenná trubice kolem UV-C zářivky: zářivka v ní nesmí do vody, voda teče okolo a UV-C prochází sklem. Obyčejné sklo by záření sežralo. Náhradní díl v e-shopu je „křemenná trubice“ / quartz sleeve — to není zářivka.
+
 Při pořadí UV → buben se pouzdra špiní rychleji (předfiltrace je jen sání u hladiny). Otírat, jinak 110 W svítí do mlhy. Kdyby UV přestalo být vidět, teprve pak zvážit buben **před** UV — pro zelenou vodu je to horší (shluky skončí v 550).
+
+### Třetí 55 W UV — nekupovat
+
+Wattů je dost: **2×55 W + 2×25 W = 160 W** na 40 m³ (cca 4 W/m³; běžně stačí 2–4 W/m³), plus Dyofix. Úzké hrdlo je **průtok skrz stávající lampy** a **síto za nimi**, ne další trubice.
+
+Další 55 W: ~1,3 kWh/den, další křemenka, větší ztráta výtlaku. Paralelně by rozdělilo dávku na průchod; v sérii dává smysl až když po bubnu, 4000–5500 l/h a čistých křemenkách voda pořád zelená.
 
 ---
 
-## 3. Whirlpool / výr
+## 3. Vír
 
-Neškrtit větev A natvrdo. Je to **obchoz** přebytku Aquamax 12000 nad stropem bubnu.
+Proud vody v oválu je **vír**. Výr je sova.
+
+Neškrtit větev A natvrdo. Je to **obchoz** přebytku Aquamax 12000 nad stropem bubnu. Když je A moc otevřená, vír **krade průtok** z UV a bubnu — 110 W svítí, ale většina vody lampami nejde.
 
 - Ventil B nastavit kbelíkem na 4000–5500 l/h na výtoku 550.
 - Větev A nechat otevřenou tak, aby na bubnu zůstal limit, ne aby všecko šlo na síto.
@@ -101,6 +111,18 @@ Největší běžný hobby tlak s 50 mm (řádově Oase FiltoClear 31000): max. 
 
 Green Reset na větvi 1 už tlakové houby + UV dělá. Buben má jemnější záchyt než houby a pere se sám.
 
+**[SUNSUN CPF-10000](https://www.jezirkabanat.cz/tlakovy-filtr-sunsun-cpf-10000-x14955)** (3 749 Kč, kód B04842) před 2×55 W na větvi 2 **nedávat**, ani se silnějším čerpadlem.
+
+| | CPF-10000 | Větev 2 / jezírko |
+| --- | --- | --- |
+| S rybami dle výrobce | **6 m³** | 40 m³ / 40 Koi |
+| Nádoba | 25 l, 5 pěnovek | Green Reset už 100 l |
+| Max. tlak | **0,3 bar ≈ 3 m** | Aquamax 12000 12 V má strop 3,2 m |
+| Hadice | max. **38 mm** | plán **50 mm** |
+| Vestavěné UV | **11 W** | už **2×55 W** (+ 2×25 W v Green Resetu) |
+
+Silnější čerpadlo tlakové hobby víko nespásí — strop zůstane ~3 m vodního sloupce; 230 V by navíc zrušilo 12 V u koupání. Pěny **před** UV křemenky trochu šetří, ale zelený zákal nechytí (UV má shluknout, síto až za lampami). Údržba „1× týdně kličkou“ u 40 Koi by byla spíš denně.
+
 Bead / bazénový písek chtějí 0,8–1,5 bar — 12V to neutáhne.
 
 Kdyby tlak přesto: jen ≤0,2 bar, 50 mm v kuse, **místo** bubnu v řadě. Pro průzračnost krok zpět.
@@ -115,7 +137,7 @@ Vyzkoušeno: malý dopad, v zimě vadí Koi, v 1,5 m koupání překáží lidem
 
 ## 6. Zeolit, uhlí, písek — ne jako stálá náplň na průzračnost
 
-Průhlednost v tomto oválu zvedne **UV 2×55 W + buben za ním** (4000–5500 l/h na výtoku 550, čisté křemenky, výr ne do 30 cm police). Zeolit bere **NH₄**, uhlí **žlutý DOC a Dyofix**. Řasy ani kalový prach nesberou.
+Průhlednost v tomto oválu zvedne **UV 2×55 W + buben za ním** (4000–5500 l/h na výtoku 550, čisté křemenky, vír ne do 30 cm police). Zeolit bere **NH₄**, uhlí **žlutý DOC a Dyofix**. Řasy ani kalový prach nesberou.
 
 | Médium | Rozhodnutí | Proč |
 | --- | --- | --- |
@@ -190,11 +212,12 @@ V horku: vzduchovací kámen v hlubině mimo brouzdaliště (40 Koi, 1,5 m, mál
 
 ## Co cíleně nedělat
 
-- Větší tlakový filtr na větev 2 (sériově s bubnem nebo jako náhrada sita).
+- Větší tlakový filtr na větev 2 (sériově s bubnem nebo jako náhrada sita), včetně SUNSUN CPF-10000 před UV.
 - Vstup 2×40 mm Y místo 50 mm.
 - Bead / bazénový písek na 12V.
 - Tryska do 30cm zóny.
 - Satelit na dno.
 - Stálý zeolit na zákal, uhlí + Dyofix.
 - Druhé čerpadlo za Green Reset.
-- Další UV — wattů je dost (50 + 110 W), chybělo síto za nimi a průtok skrz ně.
+- Silnější čerpadlo kvůli hobby tlaku (strop ~0,3 bar).
+- Další 55 W UV — wattů je dost (50 + 110 W); nejdřív průtok skrz stávající lampy a buben za nimi.

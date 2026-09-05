@@ -4,6 +4,14 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+### Added
+
+- [provoz.md](provoz.md) — CPF-10000 a třetí 55 W UV nekupovat; definice křemenky; vír krade průtok z UV, dokud není B na 4000–5500 l/h.
+
+### Fixed
+
+- Terminologie: proud vody je **vír**, ne výr.
+
 ## [1.0.1] — 2026-09-05
 
 ### Added
@@ -19,7 +27,7 @@ První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.
 
 ### Added
 
-- Větev 2: UV 2×55 W → netlakový buben (max. 6000 l/h) → Invital Biofiltr 550, výr jako obchoz.
+- Větev 2: UV 2×55 W → netlakový buben (max. 6000 l/h) → Invital Biofiltr 550, vír jako obchoz.
 - Diagnostika zákalu a kbelíkový test (cíl větve B 4000–5500 l/h).
 - Umístění dvou měřičů (hlubina 0,7–1 m, výtok IBC).
 
