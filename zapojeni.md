@@ -73,7 +73,7 @@ flowchart TB
 1. **Oase AquaMax Eco Premium 12000 12 V** (art. 50382) sání **těsně u hladiny**, přívod **50 mm**. Katalog 11 400 l/h, max. výtlak **3,2 m**, nečistoty do 11 mm, druhý vstup (satelit zkoušen, **nevyhovoval** — koupání v 1,5 m, zima, malý efekt). Trafo v dodávce.
 2. Výtlak rozdělen na **dvě 40 mm** s regulací:
    - **A — vír / mělká zóna:** neškrcená, vratná voda pravotočivě roztáčí mělčinu a strhává kal. Tryska má jít **podél oválu**, ne kolmo do 30 cm police.
-   - **B — filtrace:** škrcená, **2× 55 W UV nastojato (sifon)**, 1 m výšky **od hladiny k lampám**, v sérii před **INVITAL Biofiltr 550** (130 l, vstup 20–40 mm, výtok 40–72 mm, max. 12 000 l/h). Výtok gravitací do jezírka. Položit lampy **naležato**: [lab.md](lab.md).
+   - **B — filtrace:** škrcená, **2× 55 W UV nastojato jako U** (vstup 1. dole, propoj nahoře, výstup 2. dole), 1 m výšky **od hladiny k lampám**, v sérii před **INVITAL Biofiltr 550** (130 l, vstup 20–40 mm, výtok 40–72 mm, max. 12 000 l/h). Výtok gravitací do jezírka. Náklon kvůli l/h ne: [lab.md](lab.md).
 3. Neškrcená A bere tok z B, **když je otevřená**. Kbelík **5. 9. 2026: vír zavřený, vše přes UV, čisté filtry → 2 250 l/h** na výtoku 550 ([lab.md](lab.md)). To je strop 12 V + 2×40 mm + 2× UV, ne krádež vírem.
 
 ### Chemie a měření

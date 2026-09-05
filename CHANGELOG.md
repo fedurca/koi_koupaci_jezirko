@@ -4,6 +4,12 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+## [1.1.4] — 2026-09-05
+
+### Changed
+
+- UV: dvě lampy jako **svislé U** (zdola nahoru, propoj nahoře, shora dolů) — komory plné; náklon průtok skoro nezvedne. 38 mm na trnech lamp.
+
 ## [1.1.3] — 2026-09-05
 
 ### Changed
