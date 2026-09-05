@@ -30,7 +30,7 @@ Tlakový je **jen** Sicce Green Reset. Za ním žádné další čerpadlo. IBC a
 ```mermaid
 flowchart TB
   subgraph pond [Jezírko 40 m3]
-    skim[CSP-8000 koš + 230 V čerpadlo 10000 l/h]
+    skim[CSP-8000 kos]
     p1[Aquamax 6000 12V cca 1 m pod hladinou]
     p2[Aquamax 12000 12V sání u hladiny 50 mm]
   end
@@ -62,7 +62,7 @@ flowchart TB
 
 ### Větev 1 — skimmer, tlaková mechanika, MBBR
 
-1. **Stěnový skimmer CSP-8000** na okraji, koš 12 l, výkyv hladiny do 100 mm, plocha do 50 m². Součástí je **230 V čerpadlo 80 W / 10 000 l/h** (trn 25/32/38 mm). Koš sbírá hladinu; vestavěné čerpadlo **nepatří do stejného Green Resetu souběžně** s Aquamaxem 6000 (přetlak / EFC).
+1. **Stěnový skimmer CSP-8000** na okraji, koš 12 l, výkyv hladiny do 100 mm, plocha do 50 m². **Bez vlastního čerpadla** — hladinu táhne Aquamax 6000. Do Green Resetu nepatří druhé čerpadlo souběžně s 6000 (přetlak / EFC).
 2. **Oase AquaMax Eco Premium 6000 12 V** (art. 50730) cca **1 m pod hladinou**. Katalog 6 000 l/h, max. výtlak **3,2 m**, hrubé nečistoty do 10 mm, druhý sací vstup (satelit se nepoužívá). Trafo 230/12 V v dodávce. Ponořené čerpadlo: statická výška se počítá **od hladiny k nejvyššímu bodu výtlaku**.
 3. Čerpadlo tlačí do **Sicce Green Reset 100 l** (vstup na úrovni hladiny): 5 pěn, **2× 25 W UVC**, max. 16 000 l/h, max. 0,4 bar, trn 32/38/50. Režim čištění: odpad **na zahradu**, ne do IBC.
 4. Z filtru **2 m výtlak** do IBC, vtok IBC cca **1,2 m nad hladinou** jezírka. Reálný průtok 12 V čerpadlem při tomto zdvihu + odporu špinavého filtru je řádově **1 500–3 000 l/h** (kbelík na výtoku IBC), ne katalogových 6 000.
@@ -93,7 +93,7 @@ flowchart TB
 
 | Položka | ks | Kč / ks | Kč celkem | Odkaz | Poznámka |
 | --- | ---: | ---: | ---: | --- | --- |
-| Skimmer SUNSUN CSP-8000 s čerpadlem | 1 | 6 900 | 6 900 | [jezirkabanat.cz](https://www.jezirkabanat.cz/skimmer-stenovy-csp-8000-s-cerpadlem-x14950) | 230 V, 80 W, koš 12 l; nákupní odkaz z podkladů |
+| Skimmer SUNSUN CSP-8000 (koš) | 1 | 6 900 | 6 900 | [jezirkabanat.cz](https://www.jezirkabanat.cz/skimmer-stenovy-csp-8000-s-cerpadlem-x14950) | analog e-shopu „s čerpadlem“; **v zapojení jen koš, bez 230 V čerpadla** |
 | Oase AquaMax Eco Premium 6000 12 V | 1 | 16 268 | 16 268 | [jezirkabanat.cz](https://www.jezirkabanat.cz/oase-aquamax-eco-premium-6000-12v-jezirkove-cerpadlo-x147) | art. 50730, trafo v ceně |
 | Sicce Green Reset 100 l, UVC 2×25 W | 1 | 13 790 | 13 790 | [jezirka-eshop.cz](https://www.jezirka-eshop.cz/sicce-green-reset-100l-tlakovy-filtr-s-uvc-2x-25w/pro2364.html) | nákupní odkaz z podkladů |
 | Hel-X 17 KLL bílý, 300 l | 3×100 l | 2 500 | 7 500 | [bubnovefiltrace.cz](https://www.bubnovefiltrace.cz/filtracni-material/hel-x/) | analog; koipro uvádí 24 Kč/l |
@@ -140,6 +140,5 @@ Není v součtu: výkop a geotextilie, elektropřípojky, krmivo, náhradní pě
 | --- | ---: | ---: | ---: | --- |
 | AquaMax 6000 12 V | 6 000 | 3,2 m | 45–55 W | Green Reset + výtlak +1,2 m do IBC |
 | AquaMax 12000 12 V | 11 400 | 3,2 m | 90–95 W | Rozdělení 2×40 mm; A bez odporu, B UV+550 |
-| CSP-8000 (čerpadlo skimmeru) | 10 000 | neuvedeno | 80 W | 230 V, jen koš / oběh, ne do tlakového filtru |
 
 Hobby tlakový filtr třídy FiltoClear má max. **0,2 bar**. Proto se na větev 2 **nedává** druhý velký tlakový stupeň — viz [provoz.md](provoz.md).

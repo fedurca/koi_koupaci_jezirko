@@ -4,6 +4,8 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+## [1.0.2] — 2026-09-05
+
 ### Added
 
 - [provoz.md](provoz.md) — CPF-10000 a třetí 55 W UV nekupovat; definice křemenky; vír krade průtok z UV, dokud není B na 4000–5500 l/h.
@@ -12,6 +14,7 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 ### Fixed
 
 - Terminologie: proud vody je **vír**, ne výr.
+- Skimmer CSP-8000 je jen koš — v zapojení **není** 230 V čerpadlo 80 W / 10 000 l/h.
 
 ## [1.0.1] — 2026-09-05
 
@@ -40,5 +43,6 @@ První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.
 
 - Větší tlakový filtr na větvi 2, satelitní dnové sání, bazénový písek na 12 V, stálý zeolit a uhlí souběžně s Dyofixem.
 
+[1.0.2]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.2
 [1.0.1]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.1
 [1.0.0]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.0

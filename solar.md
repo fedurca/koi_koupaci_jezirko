@@ -51,7 +51,7 @@ flowchart LR
 | Aquamax Eco Premium **6000 12 V** | Jediné čerpadlo na baterii (větev 1 → Green Reset → IBC) |
 | Nejmenší Victron střídač 12 → 230 V | UV; Phoenix **12/250**: **200 W** trvale / 250 VA / špička 400 W |
 
-Na baterii **není**: Aquamax 12000 (12 V trafo ze sítě), skimmer CSP-8000 (230 V), vzduchování IBC (230 V), buben.
+Na baterii **není**: Aquamax 12000 (12 V trafo ze sítě), vzduchování IBC (230 V), buben. Skimmer CSP-8000 je jen koš (bez 230 V čerpadla).
 
 ---
 
@@ -72,7 +72,6 @@ Na 48 V (plán): izolovaný Orion v režimu **power supply**, výstup **12,0–1
 | Cerbo GX MK2 | 8–70 V DC | cca 3–7 W | 12 V baterie | Přímo z 48 V |
 | SmartShunt | 6,5–70 V | zanedbatelné | 12 V | Minus 48 V sběrnice |
 | Aquamax 12000 12 V | 12 V přes síťové trafo | 90–95 W | Jen 230 V | Léto ze sítě; zima vypnuto |
-| Skimmer 230 V | 230 V | 80 W | Síť | Zima vypnuto |
 | Vzduch 60 l/min | 230 V | 30–55 W | Síť | Zima **jediná** filtrační zátěž na Phoenix 48/250 |
 
 ### Střídač vs. UV (platí pro 12/250 i 48/250)
@@ -97,7 +96,7 @@ UV bez průtoku křemen přehřívá. Při výpadku / zimě:
 | Jen 6000 + Cerbo | cca 1 300 | Větev 1 bez UV |
 | 6000 + Green Reset UVC 50 W + střídač | cca 2 800 | Léto minimum na baterii |
 | + 2×55 W | cca 6 000 | Jen když teče 12000 |
-| Vše (12000 + skimmer + obě UV + vzduch) | cca **8–10 kWh** | 5,12 kWh baterie to neunese ostrovně |
+| Vše (12000 + obě UV + vzduch) | cca **6–8 kWh** | 5,12 kWh baterie to neunese ostrovně |
 
 ---
 
@@ -174,7 +173,7 @@ Využitelná energie: cca **4,6 kWh** při 90 % DoD (šetrněji 80 % → 4,1 kWh
 | --- | ---: |
 | Zima jen vzduch ~1,3 kWh/den | **3–3,5 dne** |
 | Léto 6000 + Green Reset UV ~2,8 kWh/den | **~1,5 dne** |
-| Plný letní provoz 8–10 kWh/den | **půl dne** — nesmysl ostrovně |
+| Plný letní provoz 6–8 kWh/den | **půl dne** — nesmysl ostrovně |
 
 ---
 
@@ -231,7 +230,7 @@ Léto (2 kWp × 4 kWh/kWp ≈ **8 kWh/den**):
 
 - Větev 1 + Green Reset UV (~2,8 kWh) — bez problému, baterie se dobije dopoledne.
 - + 12000 24 h (~2,3 kWh) — průměrný červen utáhne, přeháňkový týden už sahá do sítě.
-- Plný provoz 8–10 kWh — průměrně na nule, bez rezervy. **12000, skimmer a 2×55 W nechat na síti** (nebo sezónně), baterii šetřit na výpadek a na větev 1.
+- Plný provoz 6–8 kWh — průměrně na nule, bez rezervy. **12000 a 2×55 W nechat na síti** (nebo sezónně), baterii šetřit na výpadek a na větev 1.
 
 ---
 
@@ -239,7 +238,7 @@ Léto (2 kWp × 4 kWh/kWp ≈ **8 kWh/den**):
 
 1. Aquamax 6000 i 12000 **stojí** (led, hadice, koi u dna).
 2. UV **vypnuté** (bez průtoku).
-3. Skimmer vypnutý.
+3. Skimmer (koš) bez průtoku — 6000 stojí.
 4. IBC Hel-X: bez cirkulace vody nitrifikace spí; **vzduch 60 l/min** drží biofilm a kyslík, pokud IBC nezamrzne.
 5. Střídač 48/250 napájí **jen** vzduchovač (30–55 W). ECO mode, když kompresor cykli.
 6. Orion 48/12 může být vypnutý (žádné 12 V čerpadlo) — ušetří klidový odběr.
@@ -268,7 +267,7 @@ MPPT a 48 V nabíječka ze sítě smí viset paralelně (Victron, stejné LiFePO
 ## Co při výpadku / zimě tahle záloha neřeší
 
 - Cirkulace mělčiny a UV 2×55 W, dokud 12000 není na 48 V střídači (a na 250 VA se nevejde).
-- Skimmer CSP-8000.
+- Hladinový sběr (koš CSP-8000) bez Aquamax 6000.
 - Čištění Green Resetu (230 V ventily podle modelu).
 - Nabíjení Humsienk pod 0 °C.
 

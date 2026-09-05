@@ -203,7 +203,7 @@ Orientačně: pH 7,0–8,2, EC stovky µS/cm podle zdroje vody. Důležitější
 ## Větev 1 (jen provoz, bez přestavby)
 
 - Green Reset čistit podle **výtoku z IBC**, odpad z režimu čištění na zahradu, ne do IBC.
-- Vestavěné 230 V čerpadlo skimmeru **ne** do stejného Green Resetu souběžně s Aquamax 6000.
+- Skimmer je jen **koš**; hladinu táhne Aquamax 6000. Druhé čerpadlo do stejného Green Resetu **ne**.
 - IBC / Hel-X neměnit, dokud médium víří a teče voda. Snížení IBC a přepážka nejsou v tomto kroku.
 
 V horku: vzduchovací kámen v hlubině mimo brouzdaliště (40 Koi, 1,5 m, málo nočního kyslíku). Nebrat vzduch Hel-X tak, aby přestaly rotovat.
