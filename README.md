@@ -23,7 +23,7 @@ flowchart LR
 ## Verdikt
 
 - Větev 2: **UV 2×55 W → netlakový buben (max. 6000 l/h) → Invital Biofiltr 550**. Whirlpool jen jako obchoz.
-- **Nekupovat** větší tlakový filtr na větev 2, satelit na dno, bazénový písek, stálý zeolit ani uhlí souběžně s Dyofixem.
+- **Nekupovat** větší tlakový filtr na větev 2, satelit na dno, bazénový písek. Zeolit jen nouzově na NH₄ (pak ven); uhlí jen 7–14 dní bez Dyofixu, až po zeolitu. Průzračnost řeší UV + buben.
 - Hadice od Aquamax 12000: **50 mm v kuse** k T-kusu, ne Y z 2×40 mm.
 
 ## Větve (beze změny sortimentu)

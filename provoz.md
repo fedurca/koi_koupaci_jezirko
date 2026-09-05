@@ -115,13 +115,32 @@ Vyzkoušeno: malý dopad, v zimě vadí Koi, v 1,5 m koupání překáží lidem
 
 ## 6. Zeolit, uhlí, písek — ne jako stálá náplň na průzračnost
 
+Průhlednost v tomto oválu zvedne **UV 2×55 W + buben za ním** (4000–5500 l/h na výtoku 550, čisté křemenky, výr ne do 30 cm police). Zeolit bere **NH₄**, uhlí **žlutý DOC a Dyofix**. Řasy ani kalový prach nesberou.
+
 | Médium | Rozhodnutí | Proč |
 | --- | --- | --- |
-| Zeolit | Nekupovat kvůli zákalu | Bere NH₄, ne řasy ani prach; při 40 Koi se rychle nasytí. Nanejvýš nouzový sáček 5–10 kg v IBC při špičce amoniaku, pak ven. |
-| Aktivní uhlí | Ne se Dyofixem | Vytáhne barvivo i žlutý DOC. Max. 7–14 dní na výtoku IBC nebo v 550, jen bez barviva, pak vyjmout. |
+| Zeolit | Nekupovat kvůli zákalu | Nouzový sáček 5–10 kg jen při špičce amoniaku, pak ven. Nasycený NH₄ pouští zpět. |
+| Aktivní uhlí | Ne se Dyofixem | Vytáhne barvivo i žlutý DOC. Max. 7–14 dní, jen bez barviva, pak vyjmout. |
 | Bazénový písek | Ne na 12V | Chce 0,8–1,5 bar. Za bubnem je to duplicita sita. |
 
-Dyofix u 1,5 m hloubky stíní dno (víc smyslu než v hlubokém jezírku). S bubnem + UV lze později zkusit slabší dávku. Uhlí nepořizovat, dokud barvivo zůstane.
+### Kam (jen krátká kúra)
+
+Ani jedno **ne** do Green Resetu (dusí 12 V výtlak), **ne** do vířícího Hel-X (oděr, lůžko je biofilm), **ne** do vany bubnu (pere se to ven).
+
+| Médium | Místo |
+| --- | --- |
+| Zeolit | Síťka v **IBC až za Hel-X**, u klidného výtoku |
+| Uhlí | Síťka na **výtoku IBC**, nebo **poslední komora 550** (až za bubnem) |
+
+### Pořadí, když jdou obě kúry
+
+Od ryb, ne od vzhledu. Souběžně v pytlích to nemá smysl.
+
+1. Změřit **NH₄ / NO₂**. Při amoniaku nejdřív zeolit.
+2. Až je NH₄ v nule, zeolit **ven**.
+3. Uhlí až potom: voda **žlutá a jinak čirá**, **bez Dyofixu**. Dokud Pond Blue v jezírku je, uhlí nedávat.
+
+Dyofix u 1,5 m hloubky stíní dno (víc smyslu než v hlubokém jezírku). S bubnem + UV lze později zkusit slabší dávku.
 
 ---
 
