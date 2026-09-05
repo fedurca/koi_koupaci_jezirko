@@ -94,15 +94,24 @@ Když 550 teče gravitací zpět k hladině, *nettó* statika běžící větve 
 
 ## UV — U ze dvou svislých lamp
 
-As-built: **vstup 1. lampy dole → výstup nahoře → hadice do vstupu 2. lampy nahoře → výstup 2. lampy dole.** Police ~1 m nad hladinou (havárie: voda pod policí nejde do elektro).
+As-built: **vstup 1. lampy dole → výstup nahoře → hadice do vstupu 2. lampy nahoře → výstup 2. lampy dole.** Police **~1 m** nad hladinou (havárie: voda pod policí nejde do elektro). **Na úroveň hladiny nesnižovat** — zmizí ten sifon, elektro hlava a těsnění jsou u vody.
 
-Tím pádem **v křemence bublina není**: první lampa se plní zdola a odvzdušní se horním výstupem, druhá je uzavřená trubice shora dolů a vzduch jde ven spodním výtokem. Vzduch by mohl sedět jen v **koruně hadice mezi vrcholy**, ne v obalu zářivky — na dávku UV to nesvítí.
+**V křemence bublina není.** První lampa se plní zdola a odvzdušní se horním výstupem, druhá je uzavřená trubice shora dolů a vzduch jde ven spodním výtokem. Vzduch by mohl sedět jen v **koruně hadice mezi vrcholy**, ne v obalu zářivky — na dávku UV to nesvítí. Dřívější rada „položit, ať se vyplní pouzdro“ na toto U **neplatí**.
 
-Naklánět kvůli UV nebo kvůli l/h **není důvod**. 45° ani vodorovno komoru „víc nenaplní“ a vnitřní odpor dvou lamp se náklonem nemění.
+Úhel **není půlka účinku**. Když je komora plná, svisle / 45° / vodorovně je na UV **skoro totéž** (řádově 0–10 %, spíš teplota trubice). 45° komoru „víc nenaplní“.
 
-Při **2 250 l/h** a vnitřku **38 mm** je rychlost ~0,55 m/s, `v²/2g` ~1,5 cm. Extra koleno je milimetry sloupce. Běžící sifon: čerpadlo vidí výtok 550 nad hladinou, ne výšku U. Snížení hřebene o desítky cm → **cca 0–5 %** l/h (v kbelíku šum). Z 2 250 to 4 000 neudělá.
+| Úprava | Dávka UV | Průtok proti 2 250 l/h |
+| --- | --- | --- |
+| Nechat svislé U na 1 m polici | výchozí (plné komory) | **2 250 l/h** |
+| Naklonit ~45° na stejné polici | cca **0 až −5 %** | **cca 0–5 %** (kbelík = šum) |
+| Vodorovně na stejné 1 m polici | cca **0 až −5 %** | totéž **0–5 %** |
+| Ležato **u hladiny** | stejné UV, **horší elektřina** | pořád ne tisíce l/h |
 
-Na trnech lamp nechat **38 mm** (u analogu Vitronic je strop trnu 38 mm). 50 mm jen **od 12000 k T-kusu**, pokud se vejde.
+Při **2 250 l/h** a vnitřku **38 mm** je rychlost ~0,55 m/s, `v²/2g` ~1,5 cm. Extra koleno je milimetry sloupce. Vnitřní odpor dvou lamp se náklonem nemění. Běžící sifon: čerpadlo vidí výtok 550 nad hladinou, ne výšku U. Z 2 250 to 4 000 poloha neudělá.
+
+Na trnech lamp nechat **38 mm** (u analogu Vitronic je strop trnu 38 mm — jiná se tam nevejde). 50 mm jen **od 12000 k T-kusu**, pokud se vejde.
+
+**Nechat jak je.** Náklon kvůli UV ani kvůli l/h nemá cenu.
 
 Pozor: trvalý sifon zpět **pod hladinu** umí po vypnutí čerpadla **vysát jezírko**. Výtok 550 nad hladinou, nebo přisátí vzduchu na hřebeni.
 
@@ -113,7 +122,7 @@ Pozor: trvalý sifon zpět **pod hladinu** umí po vypnutí čerpadla **vysát j
 1. **Zákal = mrtvá (a zbylá živá) řasa bez záchytu.** UV při zavřeném víru už vodu vidí; chybí buben.
 2. **950 a 2 250 l/h jsou stropy čistého 12 V zapojení**, ne špinavé pěny a ne otevřený vír. Větev 1: statika **od hladiny** k IBC (2,5 m od dna pod skimmerem minus hloubka vody). Větev 2: **1 m k UV** + svislý sifon; 2 250 je tření, ne ten 1 m.
 3. **Buben za 2×55 W, před 550** — prací odpad na zahradu. 2 250 l/h je pod stropem síta.
-4. **Svislé U nechat** (plné komory, náklon l/h skoro nezvedne). Police ~1 m kvůli elektřině. 38 mm na trnech UV; 50 mm jen k T-kusu, pokud se vejde.
+4. **Svislé U nechat na ~1 m polici.** Komory plné; 45° ani vodorovno l/h skoro nezvedne. **Nesnižovat na hladinu.** 38 mm na trnech UV; 50 mm jen k T-kusu, pokud se vejde.
 5. **Vír nechat zavřený** (nebo skoro), dokud kbelík na 550 neukáže rezervu nad tím, co má jít přes buben.
 6. Vysavač dna. Nekupovat další UV, CPF-10000, zeolit na zákal, uhlí se Dyofixem.
 

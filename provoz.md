@@ -82,7 +82,7 @@ Při pořadí UV → buben se pouzdra špiní rychleji (předfiltrace je jen sá
 
 ### Orientace UV — svislé U
 
-As-built: 1. lampa **zdola nahoru**, propoj **nahoře**, 2. lampa **shora dolů**, police **~1 m** (havárie mimo elektro). Komory jsou plné; naklánět kvůli bublině ani kvůli průtoku ne. 38 mm na trnech lamp. 50 mm jen k T-kusu, pokud se vejde. [lab.md](lab.md).
+As-built: 1. lampa **zdola nahoru**, propoj **nahoře**, 2. lampa **shora dolů**, police **~1 m** (havárie mimo elektro). **Nesnižovat na hladinu.** Komory jsou plné (bublina v křemence u tohoto U není); 45° není půlka mezi svislou a vodorovnou — při plné komoře je dávka stejná a průtok **+0–5 %**. 38 mm na trnech lamp (strop analogu Vitronic). 50 mm jen k T-kusu, pokud se vejde. [lab.md](lab.md).
 
 Sifon zpět pod hladinu po stopu čerpadla může vysát ovál — výtok 550 nad hladinou nebo přisátí vzduchu na hřebeni.
 

@@ -4,6 +4,12 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+## [1.1.5] — 2026-09-05
+
+### Changed
+
+- UV U: **nesnižovat na hladinu**; 45° není půlka účinku (plné komory ⇒ dávka stejná). Náklon **+0–5 %** l/h. 38 mm na trnech lamp, 50 mm jen k T-kusu.
+
 ## [1.1.4] — 2026-09-05
 
 ### Changed
@@ -73,6 +79,8 @@ První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.
 
 - Větší tlakový filtr na větvi 2, satelitní dnové sání, bazénový písek na 12 V, stálý zeolit a uhlí souběžně s Dyofixem.
 
+[1.1.5]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.5
+[1.1.4]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.4
 [1.1.3]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.3
 [1.1.2]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.2
 [1.1.1]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.1
