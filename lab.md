@@ -2,91 +2,88 @@
 
 Měření **5. 9. 2026** (kbelíkový test). Hydraulika as-built: [zapojeni.md](zapojeni.md). Cílový postup: [provoz.md](provoz.md).
 
-Předpoklad míst měření podle provozního postupu: větev 1 = **výtok IBC**, větev 2 = **výtok Biofiltru 550** (ne u čerpadla). Kdyby 2250 l/h bylo součet víru + 550, čísla níž by byla ještě horší.
+Podmínky (doplněno po měření): **filtry vyčištěné**; větev 2 se **zavřeným vírem** — **všechno šlo přes UV** (2×55 W → Biofiltr 550). Místa: větev 1 = **výtok IBC**, větev 2 = **výtok 550**.
 
 ---
 
 ## Naměřené hodnoty
 
-| Větev | Místo (předpoklad) | Naměřeno | Katalog čerpadla | Dříve v dokumentaci | Cíl po bubnu |
+| Větev | Podmínka | Naměřeno | Katalog čerpadla | Dříve v dokumentaci | Cíl po bubnu |
 | --- | --- | ---: | ---: | ---: | ---: |
-| 1 (skimmer → 6000 → Green Reset → IBC) | výtok IBC | **950 l/h** | 6 000 l/h | 1 500–3 000 l/h | nehonit na 6 000 |
-| 2 (12000 → T → UV → 550) | výtok 550 | **2 250 l/h** | 11 400 l/h | „část 12000, A krade“ | **4 000–5 500 l/h** |
+| 1 (skimmer → 6000 → Green Reset → IBC) | čisté pěny | **950 l/h** | 6 000 l/h | 1 500–3 000 l/h | nehonit na 6 000 |
+| 2 (12000 → UV → 550) | vír **zavřený**, vše přes UV, čisté filtry | **2 250 l/h** | 11 400 l/h | „A krade“ — **na tomto kbelíku neplatí** | **4 000–5 500 l/h** |
+
+2 250 l/h je **strop** 12 V AquaMax 12000 proti 2×40 mm + 2×55 W v sérii + 550, ne zbytek po víru. Otevřený vír by z 2 250 jen ubral.
 
 ### Objem za den vs. 40 m³
 
 | Tok | m³ / 24 h | Objemů jezírka / den |
 | --- | ---: | ---: |
 | Větev 1 | 22,8 | 0,57× |
-| Větev 2 přes UV+550 | 54,0 | 1,35× |
+| Větev 2 přes UV+550 (vír zavřený) | 54,0 | 1,35× |
 | Součet přes UV (50 W + 110 W) | 76,8 | **1,9×** |
-| Cíl větve 2 po bubnu (4 500 l/h) | 108 | 2,7× |
+| Cíl větve 2 v [provoz.md](provoz.md) (4 500 l/h) | 108 | 2,7× |
 
-Wattů UV je dost ([provoz.md](provoz.md): 160 W / 40 m³). **Průtok lampami a záchyt shluků nejsou.**
+Wattů UV je dost (160 W / 40 m³). **Záchyt shluků chybí.** Průtok 12 V čerpadly je ten, co je — ne špína v pěnách.
 
 ---
 
 ## Zákal
 
-Vzhled: **velmi tmavě zelený až šedý**, vidět **jen na dně**. Odhad: **převážně mrtvá řasa** (plus zbytek živého fytoplanktonu a Dyofix, který sloupec ztmaví).
+Vzhled: **velmi tmavě zelený až šedý**, vidět **jen na dně**. Odhad: **převážně mrtvá řasa** (plus zbytek živého fytoplanktonu a Dyofix).
 
-To sedí na tabulku v [provoz.md](provoz.md): zelená = jednobuněčné řasy → UV má shluknout, **síto má shluky vyhodit**. Šedý nádech a vrstva na dně = UV už část buněk zabíjí, ale **nikde je nesbírá**. Houby v 550 a Green Resetu mrtvou řasu drží chvíli a pouští dál. Buben za UV v as-built **není v řadě**.
+UV při 2 250 l/h má na průchod **dlouhý kontakt** (na zabití spíš dobře). Šedé dno = buňky umírají, **síto za lampami není**. Buben v as-built není v řadě. 550 a Green Reset shluky neudrží.
 
 | Co to není | Proč |
 | --- | --- |
 | Málo wattů UV | 2×55 W + 2×25 W; třetí 55 W nekupovat |
-| „Chce to zeolit / uhlí“ | Zeolit bere NH₄, uhlí Dyofix a DOC, ne šedý prach |
-| CPF-10000 / silnější čerpadlo | 6 m³ filtr, 0,3 bar; viz provoz |
-| Čistá hnědá kalová voda | Tmavě zelená složka = řasa, ne jen detrit z mělčiny |
+| Špinavé filtry při tomto kbelíku | pěny čisté |
+| Vír ukradl 2 250 l/h | vír byl zavřený |
+| Zeolit / uhlí | NH₄ / Dyofix+DOC, ne šedý prach |
+| CPF-10000 / silnější čerpadlo | 6 m³, 0,3 bar; viz provoz |
 
-Dno: mrtvá řasa + detrit. Nesmýkat 30 cm polici vírem. Občas vysavač, odpad na zahradu.
-
----
-
-## Větev 1 — 950 l/h
-
-AquaMax 6000 12 V má max. výtlak **3,2 m**. Statická výška k vtoku IBC je **~1,2 m** plus odpor špinavého Green Resetu. Katalogových 6 000 l/h je bez této zátěže. Dokumentace čekala 1 500–3 000 l/h; **950 je pod tím**.
-
-Nejpravděpodobněji **ucpané pěny Green Resetu** (tmavá voda, pomalý tlakový stupeň). Dál: plný koš skimmeru, ohyb hadice, pokles 12 V.
-
-Hel-X: 950 l/h přes IBC 1 000 l ≈ 1 h zdržení — na nitrifikaci stačí, **vzduch 60 l/min** musí Hel-X pořád vířit. Green Reset UVC 2×25 W má při 950 l/h dlouhý kontakt, ale na 40 m³ to je jen **0,57 objemu/den**.
-
-Čistit Green Reset podle výtoku IBC, odpad na zahradu. Nesnažit se větev 1 na 6 000.
+Dno vysát na zahradu. Tryska ne do 30 cm police.
 
 ---
 
-## Větev 2 — 2 250 l/h
+## Větev 1 — 950 l/h (čistý Green Reset)
 
-Cíl po bubnu je **4 000–5 500 l/h** na výtoku 550. Teď je **polovina** a buben ještě není v sérii.
+AquaMax 6000 12 V: max. výtlak **3,2 m**. Statická výška k IBC **~1,2 m** plus čistý Green Reset (až 0,4 bar = 4 m — filtr umí čerpadlo udusit i prázdný). Katalog 6 000 l/h je bez této zátěže. Odhad 1 500–3 000 l/h byl **optimistický**; **950 l/h je reálný strop této větve**, dokud se nesníží výtlak (níž vtok IBC, kratší/širší hadice), ne dokud se znovu myjí pěny.
 
-As-built: výtlak **2×40 mm**, větev A (vír) **neškrcená**, B (UV+550) škrcená. A má menší odpor, **krade průtok**. Hadice má jít **50 mm v kuse** k T-kusu.
+Hel-X: 950 l/h × IBC 1 000 l ≈ 1 h — nitrifikace OK při **60 l/min** vzduchu. UVC 2×25 W: 0,57 objemu/den.
 
-2 250 l/h přes 2×55 W je na dávku UV spíš pomalé (dobré zabíjení na průchod), ale **17,8 h na jeden průtok 40 m³** lampami. Shluky se vrací do oválu.
+---
 
-Křemenky: při této vodě rychle zahalují; 110 W do mlhy. Otřít.
+## Větev 2 — 2 250 l/h (vír zavřený)
+
+Cíl 4 000–5 500 l/h z [provoz.md](provoz.md) počítal s tím, že 12000 má přebytek na vír. **Přebytek není.** 2 250 / 11 400 ≈ **20 % katalogu**. 12 V, 3,2 m, **dvě UV v sérii**, **2×40 mm** místo 50 mm, gravitační 550.
+
+**50 mm v kuse k T-kusu** (a dál k UV, pokud trn dovolí) může přidat stovky až nízké tisíce l/h — ne nutně na 4 500. Po 50 mm znovu kbelík. Buben (max. 6 000 l/h) při 2 250 **nepřeteče**; za UV pořád patří kvůli mrtvé řase, ne kvůli průtoku.
+
+Vír jako obchoz dává smysl **až** bude na UV víc vody, než má jít přes buben. Teď otevřít A = méně než 2 250 přes lampy.
+
+Křemenky otírat — voda je pořád hustá.
 
 ---
 
 ## Verdikt z tohoto měření
 
-1. **Zákal = mrtvá (a zbylá živá) řasa bez záchytu**, ne málo UV.
-2. **Buben za 2×55 W, před 550** — tohle číslo 2 250 l/h a šedé dno potvrzují. Prací odpad na zahradu.
-3. **Vír přivřít**, větev B kbelíkem na 4 000–5 500 l/h; hadice **50 mm** k T-kusu.
-4. **Green Reset vyčistit** — 950 l/h je moc málo i na špinavý 6000.
-5. **Vysavač dna**, ne tryska do 30 cm police.
-6. Nekupovat další UV, CPF-10000, zeolit na zákal, uhlí se Dyofixem.
-
-Až pojedou 4 000+ l/h přes UV+buben a pěny Green Resetu budou čisté, kbelík zopakovat a zapsat sem.
+1. **Zákal = mrtvá (a zbylá živá) řasa bez záchytu.** UV při zavřeném víru už vodu vidí; chybí buben.
+2. **950 a 2 250 l/h jsou stropy čistého 12 V zapojení**, ne špinavé pěny a ne otevřený vír.
+3. **Buben za 2×55 W, před 550** — prací odpad na zahradu. 2 250 l/h je pod stropem síta.
+4. **Hadice 50 mm** k T-kusu / UV; pak nový kbelík. Cíl 4 000–5 500 brát jako přání, ne slib.
+5. **Vír nechat zavřený** (nebo skoro), dokud kbelík na 550 neukáže rezervu nad tím, co má jít přes buben.
+6. Vysavač dna. Nekupovat další UV, CPF-10000, zeolit na zákal, uhlí se Dyofixem.
 
 ```mermaid
 flowchart LR
   p2[Aquamax 12000]
   t[T-kus]
-  a[Vir obchoz]
+  a[Vir ZAVRENY]
   uv[UV 2x55W]
-  drum[Buben]
   bio[550]
+  mereni["kbelik 2250 l/h"]
   p2 --> t
   t --> a
-  t --> uv --> drum --> bio
+  t --> uv --> bio --> mereni
 ```

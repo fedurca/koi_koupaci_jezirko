@@ -27,7 +27,7 @@ Měřit na **výtoku z Biofiltru 550** (větev 2) a zvlášť na **výtoku z IBC
 2. Plný kbelík: `průtok (l/h) = 10 / sekundy × 3600`.
 3. Cíl větve 2 po zapojení bubnu: **4000–5500 l/h**.
 4. Strop bubnu je **6000 l/h**. Nad ním teče voda přepadem **neošetřená** zpět do jezírka.
-5. IBC: zapsat výchozí hodnotu (u 6000 12V a zdvihu +1,2 m často 1500–3000 l/h čistý Green Reset). **5. 9. 2026 naměřeno 950 l/h** — viz [lab.md](lab.md). Nesnažit se honit větev 1 na 6000 — čerpadlo na to nemá výtlak.
+5. IBC: zapsat výchozí hodnotu. **5. 9. 2026: 950 l/h při čistém Green Resetu** — viz [lab.md](lab.md). Nesnažit se honit větev 1 na 6000 — čerpadlo na to nemá výtlak.
 
 Když buben pere nonstop, stáhnout větev B (víc na vír), nepřidávat průtok.
 
@@ -92,10 +92,10 @@ Další 55 W: ~1,3 kWh/den, další křemenka, větší ztráta výtlaku. Parale
 
 Proud vody v oválu je **vír**. Výr je sova.
 
-Neškrtit větev A natvrdo. Je to **obchoz** přebytku Aquamax 12000 nad stropem bubnu. Když je A moc otevřená, vír **krade průtok** z UV a bubnu — 110 W svítí, ale většina vody lampami nejde.
+Neškrtit větev A natvrdo, **až bude na UV přebytek** nad stropem bubnu. Kbelík 5. 9. 2026 při **zavřeném víru**: jen **2 250 l/h** přes UV — přebytek není, A by lampám ještě ubrala. Až 50 mm a nový kbelík ukážou rezervu, A je obchoz podél oválu, ne do 30 cm police.
 
-- Ventil B nastavit kbelíkem na 4000–5500 l/h na výtoku 550.
-- Větev A nechat otevřenou tak, aby na bubnu zůstal limit, ne aby všecko šlo na síto.
+- Teď: A **zavřená** (kbelík 2 250 l/h přes UV). Cíl 4 000–5 500 l/h na 550 až po 50 mm a novém kbelíku.
+- Až bude rezerva nad stropem bubnu: A otevřít jako obchoz, ne natvrdo škrtit B pod 2 250.
 - Trysku vést **podél hlubšího oválu**, ať vodu z 30cm police stahuje ke skimmeru / k sání 12000.
 - **Nesměřovat** trysku do 30 cm mělčiny (zvíří dno, mléčná voda, bije do nohou).
 

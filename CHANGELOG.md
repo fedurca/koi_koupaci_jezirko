@@ -4,6 +4,12 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+## [1.1.1] — 2026-09-05
+
+### Fixed
+
+- [lab.md](lab.md) — kbelík 5. 9. 2026 byl při **čistých filtrech** a **zavřeném víru** (vše přes UV). 950 / 2 250 l/h jsou stropy 12 V, ne špína a ne krádež vírem.
+
 ## [1.1.0] — 2026-09-05
 
 ### Added
@@ -49,6 +55,7 @@ První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.
 
 - Větší tlakový filtr na větvi 2, satelitní dnové sání, bazénový písek na 12 V, stálý zeolit a uhlí souběžně s Dyofixem.
 
+[1.1.1]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.1
 [1.1.0]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.0
 [1.0.2]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.2
 [1.0.1]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.1
