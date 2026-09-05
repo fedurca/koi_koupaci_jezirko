@@ -80,6 +80,12 @@ Ostřik a elektronika bubnu nesmí zmrznout: bypass (UV → 550 nebo UV → jez�
 
 Při pořadí UV → buben se pouzdra špiní rychleji (předfiltrace je jen sání u hladiny). Otírat, jinak 110 W svítí do mlhy. Kdyby UV přestalo být vidět, teprve pak zvážit buben **před** UV — pro zelenou vodu je to horší (shluky skončí v 550).
 
+### Orientace UV — ne sifon nastojato
+
+As-built: 2×55 W **nastojato, hadice jako sifon**, výtlak **1 m od hladiny k lampám**. Vzduch zůstává u stropu křemenky, crest sifonu je výš o délku tělesa, víc kolen.
+
+**Položit obě lampy naležato** na téže polici, v sérii, výtok mírně výš než vtok. Z 2 250 l/h to neudělá 6 000, ale UV začne svítit do vody a 12 V ztratí pár kolen. Kbelík po přeložení. Podrobně [lab.md](lab.md).
+
 ### Třetí 55 W UV — nekupovat
 
 Wattů je dost: **2×55 W + 2×25 W = 160 W** na 40 m³ (cca 4 W/m³; běžně stačí 2–4 W/m³), plus Dyofix. Úzké hrdlo je **průtok skrz stávající lampy** a **síto za nimi**, ne další trubice.

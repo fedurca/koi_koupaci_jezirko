@@ -4,6 +4,12 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+## [1.1.2] — 2026-09-05
+
+### Added
+
+- [lab.md](lab.md) — výtlak větve 1 ~2,5 m od dna pod skimmerem (statika od **hladiny**); větev 2: 1 m k UV. Lampy **položit naležato**, ne sifon nastojato.
+
 ## [1.1.1] — 2026-09-05
 
 ### Fixed
@@ -55,6 +61,7 @@ První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.
 
 - Větší tlakový filtr na větvi 2, satelitní dnové sání, bazénový písek na 12 V, stálý zeolit a uhlí souběžně s Dyofixem.
 
+[1.1.2]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.2
 [1.1.1]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.1
 [1.1.0]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.0
 [1.0.2]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.2

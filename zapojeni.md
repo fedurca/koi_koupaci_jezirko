@@ -63,7 +63,7 @@ flowchart TB
 ### Větev 1 — skimmer, tlaková mechanika, MBBR
 
 1. **Stěnový skimmer CSP-8000** na okraji, koš 12 l, výkyv hladiny do 100 mm, plocha do 50 m². **Bez vlastního čerpadla** — hladinu táhne Aquamax 6000. Do Green Resetu nepatří druhé čerpadlo souběžně s 6000 (přetlak / EFC).
-2. **Oase AquaMax Eco Premium 6000 12 V** (art. 50730) cca **1 m pod hladinou**. Katalog 6 000 l/h, max. výtlak **3,2 m**, hrubé nečistoty do 10 mm, druhý sací vstup (satelit se nepoužívá). Trafo 230/12 V v dodávce. Ponořené čerpadlo: statická výška se počítá **od hladiny k nejvyššímu bodu výtlaku**.
+2. **Oase AquaMax Eco Premium 6000 12 V** (art. 50730) pod skimmerem. Katalog 6 000 l/h, max. výtlak **3,2 m**. Geometrie: **~2,5 m od dna pod skimmerem** k vysokému bodu (IBC); **statika čerpadla = od hladiny**, ne od dna ([lab.md](lab.md)). Trafo 230/12 V v dodávce. Ponořené čerpadlo: satelit se nepoužívá. Hrubé nečistoty do 10 mm.
 3. Čerpadlo tlačí do **Sicce Green Reset 100 l** (vstup na úrovni hladiny): 5 pěn, **2× 25 W UVC**, max. 16 000 l/h, max. 0,4 bar, trn 32/38/50. Režim čištění: odpad **na zahradu**, ne do IBC.
 4. Z filtru **2 m výtlak** do IBC, vtok IBC cca **1,2 m nad hladinou** jezírka. Kbelík **5. 9. 2026 = 950 l/h při čistém Green Resetu** ([lab.md](lab.md)); katalog 6 000 l/h na tento výtlak nesedí.
 5. **IBC 1 000 l**, náplň **300 l Hel-X 17 KLL bílý** (30 % objemu; chráněný povrch 393 m²/m³ → cca 118 m²). Spodní distanční rastr, **60 l/min vzduchu** (3,6 m³/h) na fluidní lůžko. Výtok gravitačně zpět do jezírka (síto proti úniku média).
@@ -73,7 +73,7 @@ flowchart TB
 1. **Oase AquaMax Eco Premium 12000 12 V** (art. 50382) sání **těsně u hladiny**, přívod **50 mm**. Katalog 11 400 l/h, max. výtlak **3,2 m**, nečistoty do 11 mm, druhý vstup (satelit zkoušen, **nevyhovoval** — koupání v 1,5 m, zima, malý efekt). Trafo v dodávce.
 2. Výtlak rozdělen na **dvě 40 mm** s regulací:
    - **A — vír / mělká zóna:** neškrcená, vratná voda pravotočivě roztáčí mělčinu a strhává kal. Tryska má jít **podél oválu**, ne kolmo do 30 cm police.
-   - **B — filtrace:** škrcená, **2× 55 W UV** (průtočné, v sérii před 550) → **INVITAL Biofiltr 550** (130 l, vstup 20–40 mm, výtok 40–72 mm, max. doporučený průtok 12 000 l/h). Výtok gravitací do jezírka.
+   - **B — filtrace:** škrcená, **2× 55 W UV nastojato (sifon)**, 1 m výšky **od hladiny k lampám**, v sérii před **INVITAL Biofiltr 550** (130 l, vstup 20–40 mm, výtok 40–72 mm, max. 12 000 l/h). Výtok gravitací do jezírka. Položit lampy **naležato**: [lab.md](lab.md).
 3. Neškrcená A bere tok z B, **když je otevřená**. Kbelík **5. 9. 2026: vír zavřený, vše přes UV, čisté filtry → 2 250 l/h** na výtoku 550 ([lab.md](lab.md)). To je strop 12 V + 2×40 mm + 2× UV, ne krádež vírem.
 
 ### Chemie a měření
