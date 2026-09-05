@@ -2,6 +2,13 @@
 
 Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze podle [Semantic Versioning](https://semver.org/lang/cs/).
 
+## [Unreleased]
+
+### Added
+
+- [zapojeni.md](zapojeni.md) — as-built popis větví, nákupní odkazy a odhad ceny k 5. 9. 2026.
+- [solar.md](solar.md) — 12 V záloha as-built; plán 48 V sběrnice (Humsienk 5,12 kWh, izolovaný Orion 48/12, Phoenix 48/250) a FVE ~2 kWp na zimní vzduchování v Polabí.
+
 ## [1.0.0] — 2026-09-05
 
 První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.

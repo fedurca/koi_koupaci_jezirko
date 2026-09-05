@@ -4,7 +4,7 @@ Provozní zapojení koupacího oválu **40 m³ / 40 Koi** (8 × 5 m, max. 1,5 m)
 
 Verze **[1.0.0](CHANGELOG.md)** · licence [GPL-3.0](LICENSE)
 
-Podrobný postup u vody je v [provoz.md](provoz.md).
+Technický popis **současného** zapojení, odkazy na e-shopy a odhad ceny: [zapojeni.md](zapojeni.md). Cílový postup u vody: [provoz.md](provoz.md). Záloha a FVE (12 V as-built → plán 48 V + Orion): [solar.md](solar.md).
 
 ```mermaid
 flowchart LR
