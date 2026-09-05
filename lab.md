@@ -94,24 +94,22 @@ Když 550 teče gravitací zpět k hladině, *nettó* statika běžící větve 
 
 ## UV nastojato (sifon) vs. naležato
 
-Teď: **2×55 W nastojato, hadice jako sifon**.
+Teď: **2×55 W nastojato, hadice jako sifon** — kvůli havárii: voda z prasklé hadice pod policí teče do jezírka, ne do elektroinstalace. **Tu polici / vysoký bod nech.** Svislá *tělesa* k tomu nejsou nutná.
 
-| | Nastojato / sifon | Naležato |
+| | Svislý sifon (tělesa nastojato) | Ležatá tělesa na stejné 1 m polici, hadice pořád nahoru a dolů |
 | --- | --- | --- |
-| Zaplavení křemenky | vzduch u stropu pouzdra, UV svítí do bubliny | voda obteče celou zářivku (výrobce tak počítá) |
-| Nejvyšší bod | hladina + 1 m + **délka tělesa** (Vitronic 55 řádově ~0,7 m) → crest klidně **~1,7 m** | těleso na téže 1 m polici, crest ≈ **1 m** |
-| Tření | víc kolen (sifon) | dva rovné průtoky v sérii, míň 90° |
-| Odkalení vzduchu | špatné | výtok o chlup výš než vtok, bublina jde ven |
+| Povodeň při prasklé hadici **pod** policí | voda padá dolů | stejně — crest je police |
+| Křemenka | vzduch u stropu, UV do bubliny | plné pouzdro |
+| Crest | 1 m + délka tělesa (~1,7 m) | ~1 m |
+| Elektro hlava UV | nahoře ve vodní smyčce | **výš než mokrý konec**, kabel kličkou dolů (odkap) |
 
-**Ano, položit je.** Ne proto, že z 2 250 udělají 6 000, ale proto, že:
+Zásuvky a trafo **nad** úrovní UV, proudový chránič, vanička pod lampami se spádem do jezírka. Svislé pouzdro zásuvku pod policí nezachrání, když teče těsnění na polici.
 
-1. **Záblesk do řasy** — u svislého sifonu část 110 W padá do vzduchu; to u šedozelené vody bolí víc než chybějící stovky l/h.
-2. **Nižší crest a míň kolen** — na 12 V / 3,2 m reálně **pár set l/h**, ne násobek. Po přeložení znovu kbelík.
-3. Méně zasekávání sifonu po vypnutí čerpadla.
+**Sifon v hadicích nech, lampy polož.** Šipka po směru toku, výtok mírně výš než vtok (vzduch ven). Z 2 250 l/h to neudělá 6 000; 110 W začne svítit do vody. Kbelík po přeložení.
 
-Obě lampy **vodorovně**, v sérii, šipka po směru toku, mírný spád k výtoku (nebo výtok výš) ať uteče vzduch. **Nenechávat svislý sifon „aby se samy odvzdušnily“** — u UV to dělá opak.
+Pozor: trvalý sifon zpět **pod hladinu** umí po vypnutí čerpadla **vysát jezírko**. Na crestu (polici) nechat **přisátí vzduchu** nebo výtok 550 nad hladinou, ať se sifon po stopu přetrhne.
 
-50 mm k T-kusu / UV pořád platí; ležaté lampy jsou k tomu, ne místo toho.
+50 mm k T-kusu / UV pořád platí.
 
 ---
 
@@ -120,7 +118,7 @@ Obě lampy **vodorovně**, v sérii, šipka po směru toku, mírný spád k výt
 1. **Zákal = mrtvá (a zbylá živá) řasa bez záchytu.** UV při zavřeném víru už vodu vidí; chybí buben.
 2. **950 a 2 250 l/h jsou stropy čistého 12 V zapojení**, ne špinavé pěny a ne otevřený vír. Větev 1: statika **od hladiny** k IBC (2,5 m od dna pod skimmerem minus hloubka vody). Větev 2: **1 m k UV** + svislý sifon; 2 250 je tření, ne ten 1 m.
 3. **Buben za 2×55 W, před 550** — prací odpad na zahradu. 2 250 l/h je pod stropem síta.
-4. **UV položit naležato** (ne sifon nastojato) — plné pouzdro, nižší crest, míň kolen; kbelík znovu. Hadice **50 mm** k T-kusu / UV.
+4. **Lampy naležato na stávající 1 m polici** — sifon **hadic** kvůli elektřině nech; svislá tělesa ne. Zásuvky nad policí, odkap na kabelu. Hadice **50 mm** k T-kusu / UV.
 5. **Vír nechat zavřený** (nebo skoro), dokud kbelík na 550 neukáže rezervu nad tím, co má jít přes buben.
 6. Vysavač dna. Nekupovat další UV, CPF-10000, zeolit na zákal, uhlí se Dyofixem.
 
