@@ -8,12 +8,12 @@ Podmínky (doplněno po měření): **filtry vyčištěné**; větev 2 se **zav�
 
 ## Naměřené hodnoty
 
-| Větev | Podmínka | Naměřeno | Katalog čerpadla | Dříve v dokumentaci | Cíl po bubnu |
+| Větev | Podmínka | Naměřeno | Katalog čerpadla | Odpor systému | Cíl po opravách |
 | --- | --- | ---: | ---: | ---: | ---: |
-| 1 (skimmer → 6000 → Green Reset → IBC) | čisté pěny | **950 l/h** | 6 000 l/h | 1 500–3 000 l/h | nehonit na 6 000 |
-| 2 (12000 → UV → 550) | vír **zavřený**, vše přes UV, čisté filtry | **2 250 l/h** | 11 400 l/h | „A krade“ — **na tomto kbelíku neplatí** | **4 000–5 500 l/h** |
+| 1 (skimmer → 6000 → Green Reset → IBC) | čisté pěny | **950 l/h** | 6 000 l/h | 2,7–3,1 m | **2 400–4 200 l/h** po snížení IBC |
+| 2 (12000 → UV → 550) | vír **zavřený**, vše přes UV, čisté filtry | **2 250 l/h** | 11 400 l/h | 2,6–3,1 m | podle toho, co ukážou testy |
 
-2 250 l/h je **strop** 12 V AquaMax 12000 proti 2×40 mm + 2×55 W v sérii + 550, ne zbytek po víru. Otevřený vír by z 2 250 jen ubral.
+2 250 l/h **není** strop 12 V AquaMax 12000, jak tvrdila první verze těchto poznámek. Je to odpor systému, který se dá z velké části odstranit — viz [hydraulika.md](hydraulika.md). Otevřený vír by z 2 250 jen ubral, to platí dál.
 
 ### Objem za den vs. 40 m³
 
@@ -24,7 +24,9 @@ Podmínky (doplněno po měření): **filtry vyčištěné**; větev 2 se **zav�
 | Součet přes UV (50 W + 110 W) | 76,8 | **1,9×** |
 | Cíl větve 2 v [provoz.md](provoz.md) (4 500 l/h) | 108 | 2,7× |
 
-Wattů UV je dost (160 W / 40 m³). **Záchyt shluků chybí.** Průtok 12 V čerpadly je ten, co je — ne špína v pěnách.
+Objemy jsou počítané na uváděných 40 m³. Při reálném objemu kolem 20 m³ ([hydraulika.md](hydraulika.md)) se všechny násobky zdvojnásobí.
+
+Wattů UV je dost (160 W). **Chybí počet průchodů a záchyt shluků.** Průtok ale **není** strop 12 V, jak tvrdila první verze těchto poznámek — je to odpor systému, a ten se dá snížit.
 
 ---
 
@@ -32,7 +34,7 @@ Wattů UV je dost (160 W / 40 m³). **Záchyt shluků chybí.** Průtok 12 V če
 
 Vzhled: **velmi tmavě zelený až šedý**, vidět **jen na dně**. Odhad: **převážně mrtvá řasa** (plus zbytek živého fytoplanktonu a Dyofix).
 
-UV při 2 250 l/h má na průchod **dlouhý kontakt** (na zabití spíš dobře). Šedé dno = buňky umírají, **síto za lampami není**. Buben v as-built není v řadě. 550 a Green Reset shluky neudrží.
+UV při 2 250 l/h má na průchod **dlouhý kontakt** (na zabití spíš dobře). Šedé dno = buňky umírají, **záchyt za lampami chybí**. 550 a Green Reset shluky neudrží.
 
 | Co to není | Proč |
 | --- | --- |
@@ -40,15 +42,24 @@ UV při 2 250 l/h má na průchod **dlouhý kontakt** (na zabití spíš dobře)
 | Špinavé filtry při tomto kbelíku | pěny čisté |
 | Vír ukradl 2 250 l/h | vír byl zavřený |
 | Zeolit / uhlí | NH₄ / Dyofix+DOC, ne šedý prach |
-| CPF-10000 / silnější čerpadlo | 6 m³, 0,3 bar; viz provoz |
+| CPF-10000 / silnější čerpadlo | 0,3 bar; viz provoz |
+| **Rybí kal** | obsádka je **5× 40 cm + ~20× 8 cm**, dohromady 5–7 kg |
 
-Dno vysát na zahradu. Tryska ne do 30 cm police.
+**Zdroj živin nejsou ryby.** Při téhle biomase má biofiltr asi dvacetinásobnou rezervu. Zelenou vodu drží slunce na celý 1,5m sloupec plus fosfor z listí, dopouštěné vody a usazeniny. Odpověď je proto **víc průchodů přes UV** a **odběr živin** (osázená police, vazač fosfátu), ne větší mechanika.
+
+Dno vysát na zahradu — sání obou větví je u hladiny, takže usazený kal nevidí žádný stupeň v řadě. Tryska ne do 30 cm police.
 
 ---
 
 ## Větev 1 — 950 l/h (čistý Green Reset)
 
-AquaMax 6000 12 V: max. výtlak **3,2 m**. Statická výška k IBC **~1,2 m** plus čistý Green Reset (až 0,4 bar = 4 m — filtr umí čerpadlo udusit i prázdný). Katalog 6 000 l/h je bez této zátěže. Odhad 1 500–3 000 l/h byl **optimistický**; **950 l/h je reálný strop této větve**, dokud se nesníží výtlak (níž vtok IBC, kratší/širší hadice), ne dokud se znovu myjí pěny.
+AquaMax 6000 12 V: max. výtlak **3,2 m**. Při 950 l/h bere systém **2,7–3,1 m** — čerpadlo je skoro na dorazu.
+
+**Oprava dřívějšího odvození.** Věta „čistý Green Reset až 0,4 bar = 4 m, filtr umí čerpadlo udusit i prázdný“ **neplatí**: 0,4 bar je maximální tlak nádoby podle výrobce, ne ztráta na pěnách. Kdyby filtr bral 4 m, čerpadlo s výtlakem 3,2 m by nedalo vůbec nic.
+
+Skutečné vysvětlení je prozaičtější: při 950 l/h je rychlost v 38 mm jen **0,23 m/s**, takže tření v hadici je řádově 0,5 cm/m a celá trasa dá 10–20 cm. Zbývá **statická výška 2,0–2,8 m**. Číslo „~1,2 m“ s naměřenými 950 l/h nesedí — **změřit pásmem hladinu IBC nad hladinou jezírka**.
+
+**950 l/h není strop této větve, je to důsledek výšky.** Snížení IBC na 1,2–1,5 m dá podle křivky **2 400–4 200 l/h**. Rozpočet a tabulka v [hydraulika.md](hydraulika.md).
 
 Hel-X: 950 l/h × IBC 1 000 l ≈ 1 h — nitrifikace OK při **60 l/min** vzduchu. UVC 2×25 W: 0,57 objemu/den.
 
@@ -56,11 +67,20 @@ Hel-X: 950 l/h × IBC 1 000 l ≈ 1 h — nitrifikace OK při **60 l/min** vzduc
 
 ## Větev 2 — 2 250 l/h (vír zavřený)
 
-Cíl 4 000–5 500 l/h z [provoz.md](provoz.md) počítal s tím, že 12000 má přebytek na vír. **Přebytek není.** 2 250 / 11 400 ≈ **20 % katalogu**. 12 V, 3,2 m, **dvě UV v sérii**, **2×40 mm** místo 50 mm, gravitační 550.
+Cíl 4 000–5 500 l/h z [provoz.md](provoz.md) počítal s tím, že 12000 má přebytek na vír. **Přebytek není.** 2 250 / 11 400 ≈ **20 % katalogu**, odpor systému **2,6–3,1 m** ze 3,2 m.
 
-**50 mm v kuse k T-kusu** (a dál k UV, pokud trn dovolí) může přidat stovky až nízké tisíce l/h — ne nutně na 4 500. Po 50 mm znovu kbelík. Buben (max. 6 000 l/h) při 2 250 **nepřeteče**; za UV pořád patří kvůli mrtvé řase, ne kvůli průtoku.
+**A tenhle odpor se nedá poskládat.** Hadice, kolena, dvě UV a 550 dají dohromady 0,7–2,3 m. Chybí **0,3–2,4 m**. Dokud se nenajde, je každý nákup na tuhle větev střelba naslepo.
 
-Vír jako obchoz dává smysl **až** bude na UV víc vody, než má jít přes buben. Teď otevřít A = méně než 2 250 přes lampy.
+Dva nejpravděpodobnější viníci, oba se testují zadarmo:
+
+1. **Ventil na větvi B je přiškrcený.** As-built ho sám popisuje jako „škrcená“. Otevřít naplno a znovu kbelík.
+2. **Sifon je přerušený vzduchem na hřebeni.** Odnést bublinu ze sestupné větve chce zhruba **0,6–1,0 m/s**; naměřená rychlost je **0,55 m/s**. Bublina tedy nemá jak odejít. Zavzdušněný hřeben stojí čerpadlo **~1,7 m** místo ~0,2 m, což skoro celý ten schodek zavře.
+
+To upřesňuje dřívější závěr „vrchol sifonu čerpadlo netíží“: platí **jen u zaplaveného sifonu**, a při 0,55 m/s to není samozřejmost. Řešením je **odvzdušňovák na nejvyšším bodě**, ne naklánění lamp.
+
+**Paralelní zapojení lamp** místo sériového dá při stejném průtoku **stejnou dávku** a zhruba **osminový odpor** dvojice. Dřívější tvrzení, že paralelně by se dávka rozdělila, bylo špatně.
+
+Vír jako obchoz dává smysl až bude na UV víc vody. Teď otevřít A = méně než 2 250 přes lampy.
 
 Křemenky otírat — voda je pořád hustá.
 
@@ -119,12 +139,14 @@ Pozor: trvalý sifon zpět **pod hladinu** umí po vypnutí čerpadla **vysát j
 
 ## Verdikt z tohoto měření
 
-1. **Zákal = mrtvá (a zbylá živá) řasa bez záchytu.** UV při zavřeném víru už vodu vidí; chybí buben.
-2. **950 a 2 250 l/h jsou stropy čistého 12 V zapojení**, ne špinavé pěny a ne otevřený vír. Větev 1: statika **od hladiny** k IBC (2,5 m od dna pod skimmerem minus hloubka vody). Větev 2: **1 m k UV** + svislý sifon; 2 250 je tření, ne ten 1 m.
-3. **Buben za 2×55 W, před 550** — prací odpad na zahradu. 2 250 l/h je pod stropem síta.
-4. **Svislé U nechat na ~1 m polici.** Komory plné; 45° ani vodorovno l/h skoro nezvedne. **Nesnižovat na hladinu.** 38 mm na trnech UV; 50 mm jen k T-kusu, pokud se vejde.
-5. **Vír nechat zavřený** (nebo skoro), dokud kbelík na 550 neukáže rezervu nad tím, co má jít přes buben.
-6. Vysavač dna. Nekupovat další UV, CPF-10000, zeolit na zákal, uhlí se Dyofixem.
+1. **Zákal = mrtvá (a zbylá živá) řasa bez záchytu**, ne rybí kal. Obsádka 5× 40 cm + ~20× 8 cm je na to příliš lehká.
+2. **950 a 2 250 l/h nejsou stropy 12 V.** Je to odpor systému 2,6–3,1 m ze 3,2 m. Větev 1 je skoro čistá statika k IBC; u větve 2 chybí v rozpočtu 0,3–2,4 m.
+3. **Nejdřív to, co je zadarmo:** změřit hladinu IBC pásmem, otevřít ventil B naplno, odvzdušnit hřeben U. Po každé změně kbelík.
+4. **Svislé U nechat na ~1 m polici.** Komory jsou plné, náklon nepomůže. Vzduch sedí na hřebeni propoje a při 0,55 m/s sám neodejde — patří tam odvzdušňovák.
+5. **UV přepojit paralelně.** Stejná dávka, zhruba osminový odpor.
+6. **Buben odložit.** Málo rybího kalu, přeruší sifon, na řasu pod 2 µm je to nejhorší typ síta.
+7. **Živiny dolů:** osázet 30cm polici (pět kaprů rostliny nezničí), změřit PO₄ a KH, přehodnotit dávku Dyofixu.
+8. Vysavač dna. Nekupovat další UV, CPF-10000, zeolit na zákal, uhlí se Dyofixem.
 
 ```mermaid
 flowchart LR

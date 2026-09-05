@@ -244,7 +244,7 @@ Léto (2 kWp × 4 kWh/kWp ≈ **8 kWh/den**):
 6. Orion 48/12 může být vypnutý (žádné 12 V čerpadlo) — ušetří klidový odběr.
 7. Baterie v místnosti **> 0 °C**, jinak MPPT/nabíječka nesmí tlačit proud (BMS cut-off).
 
-Kámen v hlubině jezírka (kyslík pro 40 Koi pod ledem) je pořád 230 V ze sítě, pokud není na stejném střídači. Pokud má jít ze zálohy, musí se vejít do 200 W spolu se vzduchovačem IBC.
+Kámen v hlubině jezírka (kyslík pro ryby pod ledem) je pořád 230 V ze sítě, pokud není na stejném střídači. Pokud má jít ze zálohy, musí se vejít do 200 W spolu se vzduchovačem IBC. Obsádka je lehká (5× 40 cm Koi + ~20 mladých, cca 5–7 kg), takže nároky na zimní kyslík jsou malé.
 
 ---
 

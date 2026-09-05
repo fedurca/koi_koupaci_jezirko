@@ -4,6 +4,29 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+## [1.2.0] — 2026-09-05
+
+### Added
+
+- [hydraulika.md](hydraulika.md) — rozpočet výtlaku obou větví, rychlosti, ztráty na metr a na tvarovku, testy na nevysvětlený odpor, seznam optimalizací k průzračné vodě.
+- [doporuceni.md](doporuceni.md) — revize celého návrhu: 13 nálezů, obrat objemu, sifon, UV sériově vs. paralelně, co buben opravdu udělá, pořadí kroků.
+- [provoz.md](provoz.md) — kapitola 0 (kroky zadarmo), 6b živiny (osázet 30cm polici, vazač fosfátu, Dyofix, krmení), 6c buben odložit.
+
+### Changed
+
+- **Obsádka: 5× Koi cca 40 cm + cca 20 mladých cca 8 cm** (výtěr srpen 2026), biomasa 5–7 kg — ne 40 Koi. Biofiltr má proti tomu asi dvacetinásobnou rezervu, takže zelená voda není z rybího kalu.
+- **Buben odložen.** Vana s volnou hladinou přeruší sifon a sníží průtok větve 2; při téhle biomase navíc není co odvádět.
+- **UV paralelně, ne v sérii** — při stejném průtoku stejná dávka a zhruba osminový odpor dvojice.
+- **950 l/h na větvi 1 není strop.** Je to skoro čistá statika k IBC; po snížení nádrže na 1,2–1,5 m vychází 2 400–4 200 l/h.
+- Objem jezírka označen za neověřený: 64 m² fólie nesedí na 40 m³, geometrie dává 15–28 m³.
+- Na nejvyšší bod trasy patří **odvzdušňovák** — při 0,55 m/s bublina z hřebene sama neodejde.
+
+### Fixed
+
+- „Paralelně by rozdělilo dávku na průchod“ — chybné odvození, kterým se paralelní zapojení UV zamítalo.
+- „Green Reset až 0,4 bar = 4 m, udusí čerpadlo i prázdný“ — 0,4 bar je max. tlak nádoby, ne ztráta na pěnách.
+- Rozpor 40 mm vs. 38 mm na trnech UV; Green Reset 100 doplněn o katalogových ~9 m³ s Koi.
+
 ## [1.1.5] — 2026-09-05
 
 ### Changed
@@ -79,6 +102,7 @@ První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.
 
 - Větší tlakový filtr na větvi 2, satelitní dnové sání, bazénový písek na 12 V, stálý zeolit a uhlí souběžně s Dyofixem.
 
+[1.2.0]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.2.0
 [1.1.5]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.5
 [1.1.4]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.4
 [1.1.3]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.1.3

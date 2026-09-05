@@ -10,16 +10,19 @@ Ceny ve **filtraci** jsou **odhad náhrady s DPH** podle veřejných e-shopů k 
 
 | Parametr | Hodnota |
 | --- | --- |
-| Objem | 40 000 l (40 m³) |
+| Objem | uváděno 40 000 l; **z fólie a geometrie vychází spíš 15–28 m³** ([hydraulika.md](hydraulika.md)) |
 | Půdorys | ovál ve vnějším obdélníku 8 × 5 m |
 | Plocha hladiny | cca 30–35 m² |
 | Max. hloubka | cca 1,5 m |
 | Mělká zóna | 30 cm, šířka 30–150 cm |
-| Obsádka | 40× Koi |
+| Obsádka (5. 9. 2026) | **5× Koi cca 40 cm** + **cca 20 mladých cca 8 cm** (výtěr srpen 2026) |
+| Biomasa | cca **5–7 kg** — velmi lehká obsádka |
 | Provoz | koupací, čerpadla ve vodě 12 V |
 | Fólie | Firestone PondGard EPDM 1 mm, šíře 9,15 m × 7 bm (64,05 m²) |
 
-Celý sloupec je v dosahu slunce. Barvivo **Dyofix Pond Blue** je v jezírku kvůli stínění řas (spolu s UV).
+Celý sloupec je v dosahu slunce. Barvivo **Dyofix Pond Blue** je v jezírku kvůli stínění řas (spolu s UV); dávkované na 40 m³, tedy nejspíš dvojnásobek potřeby.
+
+**Objem změřit vodoměrem při dopouštění.** 64 m² fólie neobalí ovál 8 × 5 m hluboký 1,5 m tak, aby v něm bylo 40 m³ — na to je potřeba přes 90 m². Na tom čísle visí dávkování, obrat i W/m³ UV.
 
 ---
 
@@ -63,8 +66,8 @@ flowchart TB
 ### Větev 1 — skimmer, tlaková mechanika, MBBR
 
 1. **Stěnový skimmer CSP-8000** na okraji, koš 12 l, výkyv hladiny do 100 mm, plocha do 50 m². **Bez vlastního čerpadla** — hladinu táhne Aquamax 6000. Do Green Resetu nepatří druhé čerpadlo souběžně s 6000 (přetlak / EFC).
-2. **Oase AquaMax Eco Premium 6000 12 V** (art. 50730) pod skimmerem. Katalog 6 000 l/h, max. výtlak **3,2 m**. Geometrie: **~2,5 m od dna pod skimmerem** k vysokému bodu (IBC); **statika čerpadla = od hladiny**, ne od dna ([lab.md](lab.md)). Trafo 230/12 V v dodávce. Ponořené čerpadlo: satelit se nepoužívá. Hrubé nečistoty do 10 mm.
-3. Čerpadlo tlačí do **Sicce Green Reset 100 l** (vstup na úrovni hladiny): 5 pěn, **2× 25 W UVC**, max. 16 000 l/h, max. 0,4 bar, trn 32/38/50. Režim čištění: odpad **na zahradu**, ne do IBC.
+2. **Oase AquaMax Eco Premium 6000 12 V** (art. 50730) pod skimmerem. Katalog 6 000 l/h, max. výtlak **3,2 m**. Geometrie: **~2,5 m od dna pod skimmerem** k vysokému bodu (IBC); **statika čerpadla = od hladiny**, ne od dna ([lab.md](lab.md)). Rozpočet výtlaku při 950 l/h sedí jen na **statiku 2,0–2,8 m** — hladinu IBC nad jezírkem změřit pásmem ([hydraulika.md](hydraulika.md)). Trafo 230/12 V v dodávce. Ponořené čerpadlo: satelit se nepoužívá. Hrubé nečistoty do 10 mm.
+3. Čerpadlo tlačí do **Sicce Green Reset 100 l** (vstup na úrovni hladiny): 5 pěn, **2× 25 W UVC**, max. 16 000 l/h, trn 32/38/50. **0,4 bar je max. tlak nádoby**, ne ztráta na čistých pěnách. Katalogově 35 m³ bez ryb, ale jen ~9 m³ s Koi — tady dělá mechaniku a UV, bio je v IBC. Režim čištění: odpad **na zahradu**, ne do IBC.
 4. Z filtru **2 m výtlak** do IBC, vtok IBC cca **1,2 m nad hladinou** jezírka. Kbelík **5. 9. 2026 = 950 l/h při čistém Green Resetu** ([lab.md](lab.md)); katalog 6 000 l/h na tento výtlak nesedí.
 5. **IBC 1 000 l**, náplň **300 l Hel-X 17 KLL bílý** (30 % objemu; chráněný povrch 393 m²/m³ → cca 118 m²). Spodní distanční rastr, **60 l/min vzduchu** (3,6 m³/h) na fluidní lůžko. Výtok gravitačně zpět do jezírka (síto proti úniku média).
 
@@ -74,7 +77,7 @@ flowchart TB
 2. Výtlak rozdělen na **dvě 40 mm** s regulací:
    - **A — vír / mělká zóna:** neškrcená, vratná voda pravotočivě roztáčí mělčinu a strhává kal. Tryska má jít **podél oválu**, ne kolmo do 30 cm police.
    - **B — filtrace:** škrcená, **2× 55 W UV nastojato jako U** (vstup 1. dole, propoj nahoře, výstup 2. dole), 1 m výšky **od hladiny k lampám**, v sérii před **INVITAL Biofiltr 550** (130 l, vstup 20–40 mm, výtok 40–72 mm, max. 12 000 l/h). Výtok gravitací do jezírka. Náklon ani spouštění k hladině kvůli l/h ne: [lab.md](lab.md).
-3. Neškrcená A bere tok z B, **když je otevřená**. Kbelík **5. 9. 2026: vír zavřený, vše přes UV, čisté filtry → 2 250 l/h** na výtoku 550 ([lab.md](lab.md)). To je strop 12 V + 2×40 mm + 2× UV, ne krádež vírem.
+3. Neškrcená A bere tok z B, **když je otevřená**. Kbelík **5. 9. 2026: vír zavřený, vše přes UV, čisté filtry → 2 250 l/h** na výtoku 550 ([lab.md](lab.md)). To není krádež vírem. Rozpočet výtlaku ale **2 250 l/h nevysvětlí** — chybí 0,3–2,4 m sloupce. Podezřelí: škrticí ventil na B a vzduch na hřebeni U ([hydraulika.md](hydraulika.md)).
 
 ### Chemie a měření
 
@@ -83,7 +86,7 @@ flowchart TB
 
 ### V majetku, mimo popsanou řadu
 
-- **Malý netlakový buben**, strop **6 000 l/h**, s přepadem. Zamýšlené místo: **za UV, před Biofiltr 550**, s obchozem A. Zatím není v diagramu as-built.
+- **Malý netlakový buben**, strop **6 000 l/h**, s přepadem. Zamýšlené místo: za UV, před Biofiltr 550. **Instalace odložena** — při 5–7 kg biomasy není co odvádět a vana bubnu přeruší sifon ([hydraulika.md](hydraulika.md)).
 
 ---
 
@@ -138,7 +141,9 @@ Není v součtu: výkop a geotextilie, elektropřípojky, krmivo, náhradní pě
 
 | Čerpadlo | Katalog l/h | Max. výtlak | Příkon (řádově) | Co ho v zapojení brzdí |
 | --- | ---: | ---: | ---: | --- |
-| AquaMax 6000 12 V | 6 000 | 3,2 m | 45–55 W | Green Reset + výtlak +1,2 m; kbelík 950 l/h čistý |
-| AquaMax 12000 12 V | 11 400 | 3,2 m | 90–95 W | 2×40 mm + 2× UV + 550; kbelík 2 250 l/h, vír zavřený |
+| AquaMax 6000 12 V | 6 000 | 3,2 m | 45–55 W | kbelík 950 l/h = **16 %**; odpor systému 2,7–3,1 m, skoro celý statika k IBC |
+| AquaMax 12000 12 V | 11 400 | 3,2 m | 90–95 W | kbelík 2 250 l/h = **20 %**; odpor 2,6–3,1 m, z toho 0,3–2,4 m nevysvětleno |
+
+Obě čerpadla běží skoro na doraz výtlaku. To není slabé 12 V — je to odpor systému. Rozbor a testy: [hydraulika.md](hydraulika.md).
 
 Hobby tlakový filtr třídy FiltoClear má max. **0,2 bar**. Proto se na větev 2 **nedává** druhý velký tlakový stupeň — viz [provoz.md](provoz.md).
