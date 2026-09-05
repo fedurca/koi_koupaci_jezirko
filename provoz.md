@@ -80,11 +80,11 @@ Ostřik a elektronika bubnu nesmí zmrznout: bypass (UV → 550 nebo UV → jez�
 
 Při pořadí UV → buben se pouzdra špiní rychleji (předfiltrace je jen sání u hladiny). Otírat, jinak 110 W svítí do mlhy. Kdyby UV přestalo být vidět, teprve pak zvážit buben **před** UV — pro zelenou vodu je to horší (shluky skončí v 550).
 
-### Orientace UV — ne sifon nastojato
+### Orientace UV — sifon hadic, ne těles
 
-As-built: 2×55 W **nastojato, hadice jako sifon**, výtlak **1 m od hladiny k lampám**. Vzduch zůstává u stropu křemenky, crest sifonu je výš o délku tělesa, víc kolen.
+As-built: 2×55 W **nastojato**, výtlak **1 m od hladiny**, kvůli havárii (voda pod policí nejde do elektro). **Polici nech.** Tělesa **položit** na ni, v sérii, výtok mírně výš, elektro hlava výš, kabel kličkou dolů, zásuvky **nad** UV. Svislé pouzdro zásuvku pod stolem nezachrání.
 
-**Položit obě lampy naležato** na téže polici, v sérii, výtok mírně výš než vtok. Z 2 250 l/h to neudělá 6 000, ale UV začne svítit do vody a 12 V ztratí pár kolen. Kbelík po přeložení. Podrobně [lab.md](lab.md).
+Sifon zpět pod hladinu po stopu čerpadla může vysát ovál — na polici přisátí vzduchu nebo výtok 550 nad hladinou. Kbelík po přeložení. [lab.md](lab.md).
 
 ### Třetí 55 W UV — nekupovat
 
