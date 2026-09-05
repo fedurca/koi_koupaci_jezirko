@@ -2,7 +2,7 @@
 
 Stav k **5. 9. 2026**. Jde o **as-built** okruh, ne o cílový stav v [provoz.md](provoz.md) (buben za UV tam ještě není v řadě).
 
-Ceny v tabulce jsou **odhad náhrady s DPH** podle veřejných e-shopů k tomuto datu, ne faktury. Kde je známý nákupní odkaz z podkladů, je použit. Kde model chybí, je to v poznámce a cena je analog.
+Ceny ve **filtraci** jsou **odhad náhrady s DPH** podle veřejných e-shopů k **5. 9. 2026**, ne faktury. Fólie je **skutečný nákup** (12. 7. 2020). Kde je známý nákupní odkaz z podkladů, je použit. Kde model chybí, je to v poznámce a cena je analog.
 
 ---
 
@@ -17,6 +17,7 @@ Ceny v tabulce jsou **odhad náhrady s DPH** podle veřejných e-shopů k tomuto
 | Mělká zóna | 30 cm, šířka 30–150 cm |
 | Obsádka | 40× Koi |
 | Provoz | koupací, čerpadla ve vodě 12 V |
+| Fólie | Firestone PondGard EPDM 1 mm, šíře 9,15 m × 7 bm (64,05 m²) |
 
 Celý sloupec je v dosahu slunce. Barvivo **Dyofix Pond Blue** je v jezírku kvůli stínění řas (spolu s UV).
 
@@ -105,6 +106,12 @@ flowchart TB
 | Hadice 38/40/50 mm, T-kusy, šoupátka | 1 sada | 8 000 | 8 000 | [50 mm spirálová](https://www.jezirka-eshop.cz/sicce-green-reset-100l-tlakovy-filtr-s-uvc-2x-25w/pro2364.html) (příslušenství 272 Kč/m) | délky přesně nezadané; paušál |
 | **Součet v okruhu** | | | **98 481** | | |
 
+### Stavba — fólie (nákup)
+
+| Položka | ks / bm | Kč / bm | Kč celkem | Odkaz | Poznámka |
+| --- | ---: | ---: | ---: | --- | --- |
+| Firestone PondGard EPDM 1 mm, šíře 9,15 m (EPDM915) | 7 bm | ≈1 912 | 13 386 | [eshop.okzahrady.cz](https://eshop.okzahrady.cz/kaucukova-jezirkova-folie-1mm-firestone-epdm-pondgard-s-9-15m-p15525/) | nákup **12. 7. 2020** 20:11; 7 × 9,15 m = **64,05 m²**; doprava zdarma. Náhrada k 5. 9. 2026: 2 736 Kč/bm → **19 152 Kč** |
+
 ### Mimo řadu (majetek)
 
 | Položka | ks | Kč / ks | Kč celkem | Odkaz | Poznámka |
@@ -117,11 +124,13 @@ flowchart TB
 
 | | Kč s DPH |
 | --- | ---: |
-| Technika v popsaném zapojení | 98 481 |
-| Buben + měřiče (zatím mimo řadu) | 13 980 |
-| **Odhad celkem** | **112 461** |
+| Technika v popsaném zapojení (odhad náhrady 2026) | 98 481 |
+| Buben + měřiče (zatím mimo řadu, odhad 2026) | 13 980 |
+| Fólie EPDM (nákup 12. 7. 2020) | 13 386 |
+| **Součet technika 2026 + fólie 2020** | **125 847** |
+| Fólie, kdyby se kupovala 5. 9. 2026 | 19 152 |
 
-Není v součtu: stavba jezírka (fólie, výkop), elektropřípojky, krmivo, náhradní pěny/zářivky, vysavač.
+Není v součtu: výkop a geotextilie, elektropřípojky, krmivo, náhradní pěny/zářivky, vysavač.
 
 ---
 

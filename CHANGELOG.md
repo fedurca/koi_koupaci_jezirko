@@ -7,6 +7,7 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 ### Added
 
 - [provoz.md](provoz.md) — CPF-10000 a třetí 55 W UV nekupovat; definice křemenky; vír krade průtok z UV, dokud není B na 4000–5500 l/h.
+- [zapojeni.md](zapojeni.md) — do BOM fólie Firestone PondGard EPDM 1 mm, 7 bm × 9,15 m, nákup 12. 7. 2020 za 13 386 Kč.
 
 ### Fixed
 
