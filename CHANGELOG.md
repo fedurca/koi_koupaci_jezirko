@@ -4,11 +4,14 @@ Formát podle [Keep a Changelog](https://keepachangelog.com/cs/1.1.0/), verze po
 
 ## [Unreleased]
 
+## [1.0.1] — 2026-09-05
+
 ### Added
 
 - [zapojeni.md](zapojeni.md) — as-built popis větví, nákupní odkazy a odhad ceny k 5. 9. 2026.
 - [solar.md](solar.md) — 12 V záloha as-built; plán 48 V sběrnice (Humsienk 5,12 kWh, izolovaný Orion 48/12, Phoenix 48/250) a FVE ~2 kWp na zimní vzduchování v Polabí.
 - [provoz.md](provoz.md) — zeolit a uhlí jen jako krátká kúra (místo, pořadí NH₄ → uhlí bez Dyofixu); průzračnost pořád UV + buben.
+- GitHub Action: při tagu `v*` složí [all_in_one.md](all_in_one.md) a pushne ho na `main`.
 
 ## [1.0.0] — 2026-09-05
 
@@ -28,4 +31,5 @@ První vydání provozního zapojení koupacího jezírka 40 m³ / 40 Koi.
 
 - Větší tlakový filtr na větvi 2, satelitní dnové sání, bazénový písek na 12 V, stálý zeolit a uhlí souběžně s Dyofixem.
 
+[1.0.1]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.1
 [1.0.0]: https://github.com/fedurca/koi_koupaci_jezirko/releases/tag/v1.0.0

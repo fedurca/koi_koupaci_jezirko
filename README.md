@@ -2,9 +2,9 @@
 
 Provozní zapojení koupacího oválu **40 m³ / 40 Koi** (8 × 5 m, max. 1,5 m) se dvěma 12V větvemi. Cíl je **průzračná voda** bez výměny stávající techniky.
 
-Verze **[1.0.0](CHANGELOG.md)** · licence [GPL-3.0](LICENSE)
+Verze **[1.0.1](CHANGELOG.md)** · licence [GPL-3.0](LICENSE)
 
-Technický popis **současného** zapojení, odkazy na e-shopy a odhad ceny: [zapojeni.md](zapojeni.md). Cílový postup u vody: [provoz.md](provoz.md). Záloha a FVE (12 V as-built → plán 48 V + Orion): [solar.md](solar.md).
+Technický popis **současného** zapojení, odkazy na e-shopy a odhad ceny: [zapojeni.md](zapojeni.md). Cílový postup u vody: [provoz.md](provoz.md). Záloha a FVE (12 V as-built → plán 48 V + Orion): [solar.md](solar.md). Při tagu `v*` GitHub Action složí vše do [all_in_one.md](all_in_one.md).
 
 ```mermaid
 flowchart LR
