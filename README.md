@@ -2,9 +2,9 @@
 
 Provozní zapojení koupacího oválu **40 m³ / 40 Koi** (8 × 5 m, max. 1,5 m) se dvěma 12V větvemi. Cíl je **průzračná voda** bez výměny stávající techniky.
 
-Verze **[1.0.2](CHANGELOG.md)** · licence [GPL-3.0](LICENSE)
+Verze **[1.1.0](CHANGELOG.md)** · licence [GPL-3.0](LICENSE)
 
-Technický popis **současného** zapojení, odkazy na e-shopy a odhad ceny: [zapojeni.md](zapojeni.md). Cílový postup u vody: [provoz.md](provoz.md). Záloha a FVE (12 V as-built → plán 48 V + Orion): [solar.md](solar.md). Při tagu `v*` GitHub Action složí vše do [all_in_one.md](all_in_one.md).
+Technický popis **současného** zapojení, odkazy na e-shopy a odhad ceny: [zapojeni.md](zapojeni.md). Cílový postup u vody: [provoz.md](provoz.md). Kbelík a zákal: [lab.md](lab.md). Záloha a FVE (12 V as-built → plán 48 V + Orion): [solar.md](solar.md). Při tagu `v*` GitHub Action složí vše do [all_in_one.md](all_in_one.md).
 
 ```mermaid
 flowchart LR
@@ -23,7 +23,8 @@ flowchart LR
 ## Verdikt
 
 - Větev 2: **UV 2×55 W → netlakový buben (max. 6000 l/h) → Invital Biofiltr 550**. Vír jen jako obchoz.
-- **Nekupovat** větší tlakový filtr na větev 2 (včetně SUNSUN CPF-10000 před UV), další 55 W UV, satelit na dno, bazénový písek. Zeolit jen nouzově na NH₄ (pak ven); uhlí jen 7–14 dní bez Dyofixu, až po zeolitu. Průzračnost řeší stávající UV + buben, ne silnější čerpadlo.
+- Kbelík **5. 9. 2026**: větev 1 **950 l/h**, větev 2 **2 250 l/h**, zákal tmavě zelený až šedý — rozbor v [lab.md](lab.md).
+- **Nekupovat** větší tlakový filtr na větev 2 (včetně SUNSUN CPF-10000 před UV), další 55 W UV, satelit na dno, bazénový písek. Zeolit jen nouzově na NH₄ (pak ven); uhlí jen 7–14 dní bez Dyofixu, až po zeolitu.
 - Hadice od Aquamax 12000: **50 mm v kuse** k T-kusu, ne Y z 2×40 mm.
 
 ## Větve (beze změny sortimentu)

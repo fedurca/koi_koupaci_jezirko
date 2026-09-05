@@ -27,7 +27,7 @@ Měřit na **výtoku z Biofiltru 550** (větev 2) a zvlášť na **výtoku z IBC
 2. Plný kbelík: `průtok (l/h) = 10 / sekundy × 3600`.
 3. Cíl větve 2 po zapojení bubnu: **4000–5500 l/h**.
 4. Strop bubnu je **6000 l/h**. Nad ním teče voda přepadem **neošetřená** zpět do jezírka.
-5. IBC: zapsat výchozí hodnotu (u 6000 12V a zdvihu +1,2 m často 1500–3000 l/h čistý Green Reset). Nesnažit se honit větev 1 na 6000 — čerpadlo na to nemá výtlak.
+5. IBC: zapsat výchozí hodnotu (u 6000 12V a zdvihu +1,2 m často 1500–3000 l/h čistý Green Reset). **5. 9. 2026 naměřeno 950 l/h** — viz [lab.md](lab.md). Nesnažit se honit větev 1 na 6000 — čerpadlo na to nemá výtlak.
 
 Když buben pere nonstop, stáhnout větev B (víc na vír), nepřidávat průtok.
 
